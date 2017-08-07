@@ -1,0 +1,1 @@
+/home/king/pcl_learning/using_pcl_in_your_own_project/build/CMakeFiles/pcd_write_test.dir
