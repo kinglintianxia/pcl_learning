@@ -1,2 +1,0 @@
-/home/king/pcl_learning/5-The_OpenNI_Grabber_Framework_in_PCL/build/CMakeFiles/openni_grabber_xyzrgb.dir
-/home/king/pcl_learning/5-The_OpenNI_Grabber_Framework_in_PCL/build/CMakeFiles/openni_viewer.dir

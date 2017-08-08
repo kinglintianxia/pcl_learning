@@ -1,1 +1,0 @@
-/home/king/pcl_learning/6-extract_NARF_keypoint_from_a_range_image/build/CMakeFiles/narf_keypoint_extraction.dir

@@ -37,3 +37,6 @@
 # .gitignore
 *.swp
 *~
+
+# build file
+build

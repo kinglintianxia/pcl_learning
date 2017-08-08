@@ -1,1 +1,0 @@
-/home/king/pcl_learning/2-Reading_Point_Cloud_data/build/CMakeFiles/pcd_read.dir
