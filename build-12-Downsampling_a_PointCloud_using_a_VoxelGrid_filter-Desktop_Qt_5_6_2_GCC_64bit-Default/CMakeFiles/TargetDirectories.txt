@@ -1,1 +1,0 @@
-/home/king/pcl_learning/build-12-Downsampling_a_PointCloud_using_a_VoxelGrid_filter-Desktop_Qt_5_6_2_GCC_64bit-Default/CMakeFiles/voxel_grid.dir
