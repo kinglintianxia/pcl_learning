@@ -3,8 +3,7 @@
 #include <pcl/filters/radius_outlier_removal.h>
 #include <pcl/filters/conditional_removal.h>
 
-int
- main (int argc, char** argv)
+int main (int argc, char** argv)
 {
   if (argc != 2)
   {
