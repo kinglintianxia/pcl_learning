@@ -45,6 +45,7 @@ int
   // Mandatory 强制性
   seg.setModelType (pcl::SACMODEL_PLANE);
   seg.setMethodType (pcl::SAC_RANSAC);
+
   // distance threshold determines how close a point must be to the model in order to be considered an inlier
   seg.setDistanceThreshold (0.01);
 
