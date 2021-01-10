@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
 project(my_grand_project)
 
-find_package(PCL 1.7 REQUIRED COMPONENTS common io)
+find_package(PCL  REQUIRED COMPONENTS common io)
 
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})

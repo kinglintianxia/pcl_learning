@@ -7,6 +7,8 @@
 // This cpp file custom
 #include <pcl/ModelCoefficients.h>
 #include <pcl/filters/project_inliers.h>
+#include <pcl/features/normal_3d.h>
+
 
 int main(int argc, char** argv)
 {
@@ -32,6 +34,7 @@ int main(int argc, char** argv)
                             << cloud->points[i].y << " "
                             << cloud->points[i].z << std::endl;
 
+
     //Create planar coefficients with X=Y=0,Z=1,d=0
     pcl::ModelCoefficients::Ptr coefficients (new pcl::ModelCoefficients ());
     //  ax + by + cz + d = 0, where a=b=d=0, and c=1 , the X-Y plane
@@ -42,7 +45,7 @@ int main(int argc, char** argv)
 
     // filter
     pcl::ProjectInliers<pcl::PointXYZ> proj;
-    proj.setModelType(pcl::SACMODEL_PLANE);
+    proj.setModelType(pcl::SACMODEL_LINE);     // SACMODEL_LINE,SACMODEL_CIRCLE2D,
     proj.setInputCloud(cloud);
     proj.setModelCoefficients(coefficients);
     proj.filter(*cloud_projected);
@@ -55,8 +58,6 @@ int main(int argc, char** argv)
         std::cerr << "  " << cloud_projected->points[i].x
                   << "  " << cloud_projected->points[i].y
                   << "  " << cloud_projected->points[i].z << std::endl;
-
-
 
     }
 

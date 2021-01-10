@@ -41,3 +41,20 @@
 # build file
 build
 build-*
+
+# 21-Iterative_closest_point/data
+21-Iterative_closest_point/data
+
+# pcd
+*.pcd
+
+# 22-Robust_pose_estimatio_of_rigid_objects/chef.pcd
+22-Robust_pose_estimatio_of_rigid_objects/*.pcd
+
+# 24-Normal_Estimation_Using_Integral_Images/table_scene_mug_stereo_textured.pcd
+24-Normal_Estimation_Using_Integral_Images/*.pcd
+
+# 25-How_to_incrementally_register_pairs_of_clouds/capture0001.pcd
+25-How_to_incrementally_register_pairs_of_clouds/*.pcd
+
+

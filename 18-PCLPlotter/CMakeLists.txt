@@ -12,3 +12,9 @@ target_link_libraries(pcl_plotter ${PCL_COMMONLIBRARIES} ${PCL_VISUALIZATION_LIB
 
 add_executable(pcl_simple_plotter src/pcl_simple_plotter.cpp)
 target_link_libraries(pcl_simple_plotter ${PCL_COMMONLIBRARIES} ${PCL_VISUALIZATION_LIBRARIES})
+
+## plot rail std
+add_executable(rail_std_plot src/rail_std_plot.cpp)
+target_link_libraries(rail_std_plot
+    ${PCL_LIBRARIES}
+)   

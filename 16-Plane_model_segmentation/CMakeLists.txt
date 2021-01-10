@@ -10,3 +10,9 @@ add_definitions(${PCL_DEFINITIONS})
 
 add_executable (planar_sementation src/planar_sementation.cpp)
 target_link_libraries (planar_sementation ${PCL_LIBRARIES})
+
+# line_circle_seg
+add_executable(line_circle_seg src/line_circle_seg.cpp)
+target_link_libraries(line_circle_seg
+    ${PCL_LIBRARIES}
+)
